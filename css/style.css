@@ -1,0 +1,49 @@
+.cast-image{ 
+    background-image: url('../images/popmartin.png'); 
+    background-color: purple;
+    height: 500px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    position: relative;
+}
+
+#mid-card{
+    background-color: #3DBD09;
+}
+
+html{
+    background-color: blueviolet;
+}
+
+.card-body, .col-md-4 {
+    background-color: palevioletred;
+}
+
+header{
+    background-color: #33ECFF;
+}
+
+.card{
+    float: right;
+    
+
+}
+
+#card1{
+    position: relative;
+    right: 30px;
+    
+}
+
+#card3, #card2{
+    position: relative;
+    right: 30px;
+}
+#left_card{
+    background-color: #F48318;
+}
+
+.answers{
+    float: right;
+}
