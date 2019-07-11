@@ -5,53 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Martin</title>
-    <link rel= "stylesheet" type="text/css" href="css/style.css">
+    <link rel= "stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 <body>
     <div class="fixed-top"></div>
   <header>
-    <image src="images/martin-tv-show-logo_orig.png" alt="martin logo" height="150px"width="1300px">
+    <image src="assets/images/martin-tv-show-logo_orig.png" alt="martin logo" height="150px"width="1300px">
   </header>
 
 <div class="middle">
 
 <div id= "card3" class="card" style="width: 26rem;">
-    <img src="images/popmartin.png" class="card-img-top" alt="...">
+    <img src="assets/images/castpop2.jpg" class="card-img-top" alt="chaning_pictures">
     <div id="left_card" class="card-body">
       <h5 class="card-title"><span id="questionNum"></span></h5>
-      <p class="card-text3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">card 3</a>
+      <p class="card-text3">Check out this section later in the game for funny clips.</p>
+      <button id="button3" class="btn btn-primary">Start Game</button>
     </div>
   </div>
 
   <div id="card2" class="card" style="width: 18rem;">
       <div id="mid-card" class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text2">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">card 2</a>
+        <h2 id="timer" class="card-title" style="text-align: center  ">0:00</h2>
+        <p class="card-text2">Correct: <spand id="correct"></spand></p>
+        <p class="card-text2">Incorrect: <spand id="incorrect"></spand></p>
+         <button id="button2" class="btn btn-primary">Go to game</button>
+        
       </div>
     </div>
 
   <div id="card1" class="card" style="max-width: 600px;">
       <div class="row no-gutters">
         <div class="col-md-4">
-          <img id="changeImage" src="images/popmartin.png" class="card-img" alt="showpic">
+          <span id="source">
+          <img id="img" class="card-img" src="assets/images/popmartin.png"  alt="showpic" >
+          </span>
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Welcome to the Martin quiz! </h5>
-            <p class="card-text1">Martin was a television series that aired for 5 years in the mid 90's. However
+            <h5 class="card-title">Welcome to the Martin t.v. series quiz! </h5>
+            <p id="par2" class="card-text1">Martin was a television series that aired for 5 years in the mid 90's. However
               its impact on the culture is still present. This show coined phrases like "You go Girl!" and "Daaaamn Gina" to name a few. 
-              In my humble opinion this was the FUNNIEST SHOW EVER!! If call yourself a fan press
-              button below to challenge your knowledge of this great American show.
+              In my humble opinion this was the FUNNIEST SHOW EVER!! If call yourself a fan press the Start Game
+              button to challenge your knowledge of this great American televison series.
             </p>
               <br>
               
-            <button id="a" type="button" class="btn btn-primary btn-lg btn-block">card 1</button>
-            <button id="b" type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
-            <button id="c" type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+            <button id="a" type="button" class="btn btn-primary btn-lg btn-block">Start Game</button>
+            <button id="b" type="button" class="btn btn-secondary btn-lg btn-block">Start Game</button>
+            <button id="c" type="button" class="btn btn-primary btn-lg btn-block">Start Game</button>
            
           </div>
         </div>
@@ -60,9 +64,9 @@
   
   </div>
     
-    <div class="answers">
+    
           
-    </div>
+    
   </div>
   <!-- <div class="timer">
     <p>boxes</p>
